@@ -1,0 +1,15 @@
+public class Imovel {
+    private String id;
+    private String localizacao;
+    private double valor;
+
+    public Imovel(String id, String localizacao, double valor) {
+        this.id = id;
+        this.localizacao = localizacao;
+        this.valor = valor;
+    }
+
+    public void exibirDetalhes() {
+        System.out.println("Imóvel ID: " + id + " | Local: " + localizacao + " | Valor: R$" + valor);
+    }
+}
